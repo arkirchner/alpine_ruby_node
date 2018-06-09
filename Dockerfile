@@ -3,7 +3,8 @@ MAINTAINER Armin Kirchner <post.armin@gmail.com>
 
 # Begin Node.js, NPM and Yarn installation
 # Install script source: https://github.com/mhart/alpine-node/blob/master/Dockerfile
-ENV NODE_VERSION=v10.2.1 NPM_VERSION=6 YARN_VERSION=latest
+# ENV NODE_VERSION=v10.2.1 NPM_VERSION=6 YARN_VERSION=latest
+ENV NODE_VERSION=v10.4.0 NPM_VERSION=6 YARN_VERSION=latest
 
 ENV RM_DIRS=/usr/include
 
