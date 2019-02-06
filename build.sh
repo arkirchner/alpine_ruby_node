@@ -12,3 +12,7 @@
 # # Ruby 2.5.1
 # docker build -f Dockerfile.2.5.1 . -t akirchner/alpine_ruby_node:2.5.1 --no-cache
 # docker push akirchner/alpine_ruby_node:2.5.1
+
+# Ruby 2.6.1
+docker build -f Dockerfile.2.6.1 . -t akirchner/alpine_ruby_node:2.6.1 --no-cache
+docker push akirchner/alpine_ruby_node:2.6.1
